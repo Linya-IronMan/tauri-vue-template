@@ -6,15 +6,15 @@ Simple project template for Tauri and Vue 3.
 
 ## Features
 
-- Vue 3 / TypeScript frontend
-  - [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) configured
-  - [Vue-devtools](https://devtools.vuejs.org/) installed
-  - [Tailwind CSS](https://tailwindcss.com/) w/ PostCSS configured
-- Simple and fast [Vite](https://vitejs.dev/) config w/ HMR in development and optimizations for production builds
-  - [AutoImport plugin](https://github.com/antfu/unplugin-auto-import)
-- [Vitest](https://vitest.dev/) for unit tests
-- Github Actions for testing and building
-- Debugging configuration set up for VS Code
+-   Vue 3 / TypeScript frontend
+    -   [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) configured
+    -   [Vue-devtools](https://devtools.vuejs.org/) installed
+    -   [Tailwind CSS](https://tailwindcss.com/) w/ PostCSS configured
+-   Simple and fast [Vite](https://vitejs.dev/) config w/ HMR in development and optimizations for production builds
+    -   [AutoImport plugin](https://github.com/antfu/unplugin-auto-import)
+-   [Vitest](https://vitest.dev/) for unit tests
+-   Github Actions for testing and building
+-   Debugging configuration set up for VS Code
 
 ## Setting Up
 
@@ -29,8 +29,8 @@ pnpm i
 
 A Tauri app has at least [two processes](https://tauri.app/v1/guides/architecture/process-model):
 
-- the Core Process (`backend`, or _main_ process in Electron terminology), and
-- the WebView process (`frontend`, or _renderer_ in Electron)
+-   the Core Process (`backend`, or _main_ process in Electron terminology), and
+-   the WebView process (`frontend`, or _renderer_ in Electron)
 
 ### 🦢 Frontend (TS, PnPM)
 
@@ -70,8 +70,8 @@ cargo upgrade
 
 ### Debugging
 
-- The `dev` command has by default `RUST_BACKTRACE=1` set which makes Rust output full backtraces to the console. (Remove it from the `package.json` command if you don't want it).
-- If you use VS Code, you can debug Rust code with the included `Debug Tauri` config.
+-   The `dev` command has by default `RUST_BACKTRACE=1` set which makes Rust output full backtraces to the console. (Remove it from the `package.json` command if you don't want it).
+-   If you use VS Code, you can debug Rust code with the included `Debug Tauri` config.
 
 ### Building and releasing
 
@@ -105,8 +105,8 @@ This implementation works but results in visible jerkyness of the traffic lights
 
 ## Elsewhere
 
-- [Follow @uninen](https://twitter.com/uninen) on Twitter
-- Read my continuously updating learnings around Tauri / Vue / TypeScript and other Web development topics from my [Today I Learned site](https://til.unessa.net/)
+-   [Follow @uninen](https://twitter.com/uninen) on Twitter
+-   Read my continuously updating learnings around Tauri / Vue / TypeScript and other Web development topics from my [Today I Learned site](https://til.unessa.net/)
 
 ## Contributing
 
